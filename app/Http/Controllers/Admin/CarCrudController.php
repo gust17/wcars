@@ -96,6 +96,8 @@ class CarCrudController extends CrudController
         CRUD::field('compra');
         CRUD::field('valor_fip');
         CRUD::field('ano');
+        CRUD::field('parcelas');
+        CRUD::field('entrada');
         CRUD::field('kilometragem');
         CRUD::field('licenciado');
         CRUD::field('debito_doc');

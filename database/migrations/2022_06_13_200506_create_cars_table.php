@@ -17,6 +17,8 @@ class CreateCarsTable extends Migration
             $table->decimal('valor_fip');
             $table->decimal('compra');
             $table->string('vendedor');
+            $table->float('entrada');
+            $table->integer('parcelas');
             $table->string('cpf');
             $table->string('marca');
             $table->string('modelo');
