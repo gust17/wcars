@@ -18,4 +18,8 @@ Route::group([
 ], function () { // custom admin routes
 
     Route::crud('car', 'CarCrudController');
+
+    Route::get('dashboard',function(){
+        dd('oi');
+    });
 }); // this should be the absolute last line of this file
