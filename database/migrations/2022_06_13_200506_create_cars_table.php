@@ -26,11 +26,6 @@ class CreateCarsTable extends Migration
             $table->integer('kilometragem');
             $table->string('rg');
             $table->string('telefone');
-            $table->string('cep');
-            $table->string('estado');
-            $table->string('rua');
-            $table->integer('n');
-            $table->longText('complemento')->nullable();
             $table->longText('pix');
             $table->tinyInteger('licenciado');
             $table->tinyInteger('debito_doc');

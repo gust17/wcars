@@ -48,29 +48,9 @@ class CarCrudController extends CrudController
         CRUD::column('licenciado');
         CRUD::column('debito_doc');
         CRUD::column('total_debito');
-
-
-        CRUD::column('cep');
-        CRUD::column('complemento');
-        CRUD::column('rua');
-        CRUD::column('estado');
-        CRUD::column('n');
-
-
-
-
-
-
-
-
-
-
-
-
         CRUD::column('vendedor');
         CRUD::column('cpf');
         CRUD::column('rg');
-
         CRUD::column('telefone');
         CRUD::column('pix');
 
@@ -102,11 +82,7 @@ class CarCrudController extends CrudController
         CRUD::field('licenciado');
         CRUD::field('debito_doc');
         CRUD::field('total_debito');
-        CRUD::field('cep');
-        CRUD::field('complemento');
-        CRUD::field('rua');
-        CRUD::field('estado');
-        CRUD::field('n');
+
         CRUD::field('vendedor');
         CRUD::field('cpf');
         CRUD::field('rg');

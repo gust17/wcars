@@ -26,6 +26,24 @@ class CarRequest extends FormRequest
     {
         return [
             // 'name' => 'required|min:5|max:255'
+
+
+            'valor_fip' => 'required',
+            'compra' => 'required',
+            'vendedor' => 'required',
+            'entrada' => 'required',
+            'parcelas' => 'required',
+            'cpf' => 'required',
+            'marca' => 'required',
+            'modelo' => 'required',
+            'ano' => 'required',
+            'kilometragem' => 'required',
+            'rg' => 'required',
+            'telefone' => 'required',
+            'pix' => 'required',
+            'licenciado' => 'required',
+            'debito_doc' => 'required',
+            'total_debito' => 'required',
         ];
     }
 
